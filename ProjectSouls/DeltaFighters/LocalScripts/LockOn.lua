@@ -17,8 +17,6 @@ local Connections = {}
 
 local Camera = workspace.Camera
 
-local LockedOnTarget = nil
-
 local SinValue = 0
 
 local Data = PlayerData.GetData(LocalPlayer)
@@ -29,10 +27,9 @@ local CameraConfig = Config["Camera"]
 local function ResetData()
 	Camera.CameraType = Enum.CameraType.Custom
 	SetDataRemote:FireServer()
-	LockedOnTarget.Parent.Lockon:Destroy()
+	Data.Target.Parent.Lockon:Destroy()
 	Utility.DisconnectAll(Connections)
 	Data.Target = nil
-	LockedOnTarget = nil
 	Connections = {}
 	Humanoid.AutoRotate = true
 end
@@ -48,16 +45,15 @@ local function LockOn(Input, GameInput)
 		if Result then
 			local EnemyHumanoid = Result.Instance.Parent:FindFirstChild("Humanoid") or Result.Instance.Parent.Parent:FindFirstChild("Humanoid")
 			if EnemyHumanoid and EnemyHumanoid ~= Humanoid then
-				if not LockedOnTarget then
+				if not Data.Target then
 					local EnemyCharacter = EnemyHumanoid.Parent
 					local EnemyHRP = EnemyCharacter:FindFirstChild("HumanoidRootPart")
 
 					Data.Target = EnemyHRP
 					SetDataRemote:FireServer(EnemyHRP)
-					LockedOnTarget = EnemyHRP
 
 					local Highlighter = Config["Highlighter"]:Clone()
-					Highlighter.Parent = LockedOnTarget.Parent
+					Highlighter.Parent = Data.Target.Parent
 
 					SFX["LockOn"]:Play()
 
@@ -67,11 +63,13 @@ local function LockOn(Input, GameInput)
 					Camera.CameraType = Enum.CameraType.Scriptable 
 					Humanoid.AutoRotate = false
 
-					while LockedOnTarget ~= nil do	
+					while true do	
 						local DeltaTime = task.wait()
+						
+						if Data.Target == nil then break end
 
 						local Origin = HRP.CFrame * CameraConfig["CameraOffset"] -- Sets origin of camera + some offset to make it to the side
-						local Goal = CFrame.lookAt(Origin, LockedOnTarget.Position)
+						local Goal = CFrame.lookAt(Origin, Data.Target.Position)
 						local MoveDirection = Humanoid.MoveDirection
 
 						SinValue += 1
@@ -88,8 +86,8 @@ local function LockOn(Input, GameInput)
 			end
 		end
 
-		if LockedOnTarget ~= nil then
-			SFX["UnLockOn"]:Play()
+		if Data.Target ~= nil then
+			SFX["Delock"]:Play()
 			SinValue = 0
 			ResetData()
 		end
