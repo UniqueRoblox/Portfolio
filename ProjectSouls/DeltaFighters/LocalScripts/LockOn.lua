@@ -4,7 +4,7 @@ local Players = game:GetService("Players")
 
 local Utility = require(ReplicatedStorage.Modules.NikoModules.Utility)
 local PlayerData = require(ReplicatedStorage.Modules.WeevesModules.PlayerData)
-local Config = require(script.Config)
+local Config = require(script:WaitForChild("Config"))
 
 local SetDataRemote = ReplicatedStorage.Remotes.SetData
 
