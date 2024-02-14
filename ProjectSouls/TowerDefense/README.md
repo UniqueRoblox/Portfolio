@@ -53,9 +53,23 @@ Book
 https://github.com/NikoBoi12/Portfolio/assets/150070653/15dc757a-8027-4cab-ba12-759467035c06
 
 <hr>
-Tower defense main game
+Tower defense tower showcase
 
 https://github.com/NikoBoi12/Portfolio/assets/150070653/88220751-d3ed-4b3b-ae9c-e5197d1c45ef
+
+
+<hr>
+Tower defense game over
+
+https://github.com/NikoBoi12/Portfolio/assets/150070653/e13dbaf7-e7fb-4132-910c-38632492e1f6
+
+
+<hr>
+Tower defense Enemy Types
+
+https://github.com/NikoBoi12/Portfolio/assets/150070653/1c8f65bb-abf4-402f-b1d5-70539d3810f8
+
+
 
 <hr>
 Map made by Bell$ for the tower defense
