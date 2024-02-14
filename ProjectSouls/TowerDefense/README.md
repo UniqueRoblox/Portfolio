@@ -1,4 +1,4 @@
-> [!IMPORTANT]
+> [!WARNING]
 > This game does not at all accurately show how I code now this is just to display my past projects and allow people to see my learning process
 
 # Hello! This is my first ever project when I was nearly 3 months into programming 
