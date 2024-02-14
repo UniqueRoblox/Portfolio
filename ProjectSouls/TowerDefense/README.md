@@ -11,7 +11,7 @@ This was just a game for me to practice my abilities with and use it for a portf
 
 ## Videos
 
-### Menus!
+### Menu
 
 https://github.com/NikoBoi12/Portfolio/assets/150070653/3c2e4535-108d-4d9d-82ff-a31d52eeb7e8
 
@@ -24,7 +24,7 @@ https://github.com/NikoBoi12/Portfolio/assets/150070653/5603f6e6-2150-4b4f-80f2-
 https://github.com/NikoBoi12/Portfolio/assets/150070653/25e3f27f-d3b2-4d9c-bc3c-b0e74cb61151
 
 
-### Intro!
+### Intro
 
 https://github.com/NikoBoi12/Portfolio/assets/150070653/b5e26a44-7545-4224-849d-5d4f730ea545
 
