@@ -1,5 +1,5 @@
 > [!WARNING]
-> Code here may be heavily out of date or super up to date!
+> Code here may be heavily out of date
 
 # Just somewhere for me to put random miscellaneous things i've worked on
 
