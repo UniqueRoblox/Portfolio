@@ -1,1 +1,1 @@
-WARNING THIS IS ONCE AGAIN VERY ANCIENT CODE EVEN OLDER THAN MY TOWER DEFENSE THIS DOES NOT SHOW MY REAL ABILITIES IN ANY WAY this shows how I learned my fundementals of tables
+WARNING THIS IS ONCE AGAIN VERY ANCIENT CODE EVEN OLDER THAN MY TOWER DEFENSE THIS DOES NOT SHOW MY REAL ABILITIES IN ANY WAY this shows how I learned my fundementals of tables most of the code is unfinished as this was a one and done thing never got polish
