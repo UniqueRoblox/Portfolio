@@ -3,6 +3,8 @@
 
 # Just somewhere for me to put random miscellaneous things i've worked on
 
+Heres some random systems I couldn't categorize into a certain folder!
+
 ## Videos!
 
 ### RTS pathfinding visualizer
