@@ -1,3 +1,6 @@
+--[[
+This code is to help new programmers learn the concept of lerping this is not the best way to do this I know
+--]]
 local WayPoints = workspace.WayPoints -- Just a folder of waypoints
 
 local Orgin = WayPoints.A -- The starting point
