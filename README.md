@@ -18,6 +18,6 @@ Lua, C#, GDScript, Java, and Python
 
 ## 🤳 Connect with me:
 
-Email: Troelfs@hotmail.com
+Email: niko.projectsouls@gmail.com
 
 Discord: nikoboi
