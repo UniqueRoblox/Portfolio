@@ -8,9 +8,7 @@ Check out my other projects!
 
 Majoring in Software Engineering
 
-2+ Years of experience
-
-Taught by a professional in the industry with 10+ Years experience aswell as others with nearly as much experience if not more
+Taught by a professional in the industry with over 10+ years of experience
 
 ## Languages
 Lua, C#, GDScript, Java, and Python
