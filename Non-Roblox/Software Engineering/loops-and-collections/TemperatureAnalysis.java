@@ -27,8 +27,7 @@ public class TemperatureAnalysis {
 		return coldestDate;
 	}
 
-	public static Double getLowestTemperatureBetweenTwoDates(List<Observation> observations,
-															LocalDate date1, LocalDate date2) {
+	public static Double getLowestTemperatureBetweenTwoDates(List<Observation> observations, LocalDate date1, LocalDate date2) {
 		if (observations.size() == 0) {
 			return null;
 		}
