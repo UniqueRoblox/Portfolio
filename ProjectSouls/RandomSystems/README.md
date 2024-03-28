@@ -1,5 +1,5 @@
 > [!WARNING]
-> Code here may be heavily out of date
+> Code here may be heavily out of date and does not reflect my true abilities
 
 # Just somewhere for me to put random miscellaneous things i've worked on
 
